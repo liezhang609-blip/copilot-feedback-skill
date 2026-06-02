@@ -145,6 +145,8 @@ Version: v0.1
 
 This is an early public draft. It was designed from a real discussion about why AI agents often stop at the exact moment a non-expert user needs better steering, not more choices.
 
+Next step: use real tasks to test how quickly the copilot becomes helpful for new users, when permission should upgrade, and where it over-intervenes. See [ROADMAP.md](ROADMAP.md).
+
 ## License
 
 MIT
