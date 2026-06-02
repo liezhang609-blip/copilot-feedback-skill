@@ -1,0 +1,25 @@
+{
+  "skill_name": "copilot-feedback",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I am making an Allegory Architect skill. The outputs keep feeling too explanatory and not story-like enough, but I cannot say what command to give next. Help me continue.",
+      "expected_output": "Should run a copilot check, identify that another rewrite is not enough, generate positive/negative feedback, and steer toward examples, failure cases, quality dimensions, and skill revision."
+    },
+    {
+      "id": 2,
+      "prompt": "继续。这个即梦图片提示词还是不对，但是我说不上来哪里不对。",
+      "expected_output": "Should treat the image workflow as lacking a negative feedback port, preserve positive traits, isolate visual failure dimensions, and produce a concrete steering order for controlled prompt iteration."
+    },
+    {
+      "id": 3,
+      "prompt": "Build me a small personal website. You can decide the details and keep going until I can see the result.",
+      "expected_output": "Should not stop at a plan. Should steer toward implementation, local launch or openable file, visual verification, obvious fixes, and final path/URL."
+    },
+    {
+      "id": 4,
+      "prompt": "I want to make a CAD drawing recognition estimating skill, but I am new and don't know how to improve it. What should we do next?",
+      "expected_output": "Should explain that samples calibrate the workflow rather than add world knowledge, then steer toward schema, representative drawings, expected outputs, error metrics, and review checkpoints."
+    }
+  ]
+}
